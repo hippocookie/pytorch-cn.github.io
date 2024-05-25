@@ -1,0 +1,29 @@
+.resources .jumbotron {
+  align-items: flex-end;
+  color: $white;
+  height: 220px;
+  @include desktop {
+    height: 300px;
+  }
+  h1 {
+    padding-top: rem(135px);
+  }
+  p.lead {
+    margin-bottom: rem(25px);
+    padding-top: rem(20px);
+  }
+}
+
+.resources .main-content-wrapper {
+  margin-top: 385px;
+  margin-bottom: 0.75rem;
+  @include desktop {
+    margin-top: 475px;
+  }
+}
+
+.resources .resource-card {
+  @include desktop {
+    margin-bottom: rem(36px);
+  }
+}
