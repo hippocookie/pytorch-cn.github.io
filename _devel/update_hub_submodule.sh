@@ -1,6 +1,6 @@
 set -ex
 pushd _hub
-git pull https://github.com/pytorch/hub
+git pull https://github.com/hippocookie/hub-cn
 popd
 cp _hub/images/* assets/images/
 
